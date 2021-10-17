@@ -12,12 +12,18 @@ package com.dmdev.task;
  */
 public class Task4 {
 
+    //  [модификаторы] возвр. название([параметры])
     public static void main(String[] args) {
-        int year = 2000;
-        if (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)) {
-            System.out.println(year + " високосный");
-        } else
-            System.out.println(year + " не високосный");
+        int value = 2000;
+        isLeapYear(value);
+    }
 
+    public static boolean isLeapYear(int year) {
+        return year % 400 == 0 || (year % 4 == 0 && year % 100 != 0);
+//        if (result) {
+//            return true;
+//        } else {
+//            return false;
+//        }
     }
 }
