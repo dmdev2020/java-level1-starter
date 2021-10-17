@@ -1,4 +1,4 @@
-package com.dmdev.task;
+package com.dmdev.lesson4.task;
 
 /**
  * 2. Дано целое число. Определить, является ли последняя цифра этого числа – цифрой 3.

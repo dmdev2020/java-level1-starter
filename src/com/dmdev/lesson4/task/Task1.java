@@ -1,4 +1,4 @@
-package com.dmdev.task;
+package com.dmdev.lesson4.task;
 
 /**
  * 1. Дан порядковый номер месяца. Вывести на консоль пору года, к которой относится месяц.

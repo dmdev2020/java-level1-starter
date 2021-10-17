@@ -1,4 +1,4 @@
-package com.dmdev.task;
+package com.dmdev.lesson4.task;
 
 /**
  * 4. Написать программу, которая считывает год, введённый пользователем, и определяет,
