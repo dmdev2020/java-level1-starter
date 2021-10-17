@@ -1,4 +1,4 @@
-package com.dmdev.hw6;
+package com.dmdev.lesson6.hw6;
 
 import java.util.Scanner;
 
