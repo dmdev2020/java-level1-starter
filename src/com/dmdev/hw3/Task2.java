@@ -30,8 +30,8 @@ public class Task2 {
 
         int discriminant = discriminant(a, b, c);
         if (isPositive(discriminant)) {
-            double x1 = -b + Math.sqrt(discriminant) / (2 * a);
-            double x2 = -b - Math.sqrt(discriminant) / (2 * a);
+            double x1 = (-b + Math.sqrt(discriminant)) / (2 * a);
+            double x2 = (-b - Math.sqrt(discriminant)) / (2 * a);
             System.out.println("x1: " + x1);
             System.out.println("x2: " + x2);
         } else if (isZero(discriminant)) {
